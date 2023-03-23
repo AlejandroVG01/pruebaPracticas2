@@ -8,6 +8,7 @@ import { ApexOptions,ApexChart  } from 'ng-apexcharts';
 })
 export class AppComponent {
   title = 'graficas';
+  
   series = [
     {
       name: "Ventas",
@@ -22,5 +23,8 @@ export class AppComponent {
   
   xaxis = {
     categories: ["Enero", "Febrero", "Marzo", "Abril", "Mayo"]
+  };
+  fill = {
+    colors: ['#FF4560', '#008FFB', '#00E396', '#FEB019', '#775DD0']
   };
 }
