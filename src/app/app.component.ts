@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { ApexOptions,ApexChart  } from 'ng-apexcharts';
-import * as ApexCharts from 'apexcharts';
 
 @Component({
   selector: 'app-root',
